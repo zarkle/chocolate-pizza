@@ -1,0 +1,127 @@
+body {
+  width: 900px;
+  color: #666;
+  font-family: 'Garamond', serif;
+  font-size: 15px;
+}
+body p {
+  text-indent: 1em;
+}
+
+h5 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 30px;
+  display: inline;
+  margin-bottom: 0;
+  color: black;
+}
+
+.wrapper {
+  display: grid;
+  grid-template: 1fr 1fr;
+}
+
+.column1 {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  justify-self: start;
+}
+header img {
+  float: left;
+  /* padding-right: 5px; */
+}
+
+.column2 {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  justify-self: end;
+  align-self: center;
+}
+
+p.caps, figcaption {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 10px;
+  color: #777;
+  margin: 0;
+}
+
+figcaption {
+  display: inline;
+}
+
+hr {
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+  border: 0;
+  padding: 15px;
+}
+
+hr#plain {
+  border-top: 1px solid #8c8b8b;
+  background: none;
+  color: #999;
+  margin: 0;
+  z-index: 0;
+  float: center;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+  margin: 0;
+  color: #000;
+}
+
+.recipebg {
+  position: relative;
+  z-index: 0;
+  font-family: 'Comic-Sans', sans-serif;
+  font-size: 20px;
+}
+
+.column1.recipe {
+  line-height: 30px;
+  position: absolute;
+  top: 40px;
+  left: 50px;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  justify-self: start;
+}
+
+.column2.recipe {
+  line-height: 30px;
+  position: absolute;
+  top: 40px;
+  left: 500px;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  justify-self: start;
+}
+
+#pagenotes {
+  text-align:center;
+  font-size: 10px;
+  color: #999;
+}
+
+footer p {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  color: white;
+  background-color: coral;
+  padding: 10px;
+  width: 160px;
+}
+
+#pagenotes img {
+  float: center;
+}
+
+td.right {
+  width: 30px;
+}
