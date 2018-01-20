@@ -81,7 +81,7 @@ h1 {
 }
 
 .column1.recipe {
-  line-height: 25px;
+  line-height: 30px;
   position: absolute;
   top: 40px;
   left: 50px;
@@ -91,7 +91,7 @@ h1 {
 }
 
 .column2.recipe {
-  line-height: 25px;
+  line-height: 30px;
   position: absolute;
   top: 40px;
   left: 500px;
